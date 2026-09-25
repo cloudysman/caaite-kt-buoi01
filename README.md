@@ -1,14 +1,15 @@
-# Dich vu chat
+# quan-ly-ghi-chu
 
-Du an nho cua buoi 1, dung de tap Git va GitHub.
+Ung dung ghi chu nho viet bang Python.
 
 ## Cach chay
 
-```bash
+```
 python -m venv .venv
-source .venv/bin/activate
 pip install -r requirements.txt
-uvicorn app.main:app --reload
+python app.py
 ```
 
-Mo http://localhost:8000/health de kiem tra.
+## Cau hinh
+
+Sao chep `.env.example` thanh `.env` roi dien khoa API cua ban.
